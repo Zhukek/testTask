@@ -1,0 +1,8 @@
+.page {
+  @include noSpaces;
+  width: 100%;
+  background-color: $white-color;
+  font-family: $fonts;
+  font-style: normal;
+  min-width: 320px;
+}

@@ -1,0 +1,19 @@
+@mixin noSpaces {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin textStack($weight, $color) {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin links {
+  text-decoration: none;
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 0.6;
+  }
+}
